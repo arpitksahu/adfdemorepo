@@ -1,0 +1,33 @@
+{
+	"name": "pipeline3",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "newvar",
+					"value": "12"
+				}
+			}
+		],
+		"parameters": {
+			"var": {
+				"type": "string",
+				"defaultValue": "10"
+			}
+		},
+		"variables": {
+			"newvar": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
