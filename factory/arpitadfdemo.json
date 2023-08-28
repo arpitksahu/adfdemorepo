@@ -1,0 +1,9 @@
+{
+	"name": "arpitadfdemo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d9292763-00fd-4b11-b16b-68af68cd05a9",
+		"tenantId": "665b6c62-7310-4d39-9abb-32a0cbc3b90f"
+	}
+}
